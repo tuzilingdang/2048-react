@@ -9,10 +9,11 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>2048</h2>
         </div>   
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          To start, click button Start Game.
+          To move tiles, press up down left right button.
         </p>
         <div className="App-container">
           <Grid />
